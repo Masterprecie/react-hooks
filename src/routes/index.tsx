@@ -9,6 +9,7 @@ import Dashboard from '../hooks/useContext/Dashboard';
 import { UseRef } from '../hooks/useRef';
 import FileUpload from '../components/fileUploads/FileUpload';
 import Form from '../components/fileUploads/Form';
+import UseReducer from '../hooks/useReducer';
 
 export const router = createBrowserRouter([
   { path: '/', element: <Home /> },
@@ -18,6 +19,7 @@ export const router = createBrowserRouter([
   { path: '/use-callback', element: <UseCallback /> },
   { path: '/use-context', element: <Dashboard /> },
   { path: '/use-ref', element: <UseRef /> },
+  { path: '/use-reducer', element: <UseReducer /> },
   { path: '/file-upload', element: <FileUpload /> },
   { path: '/form', element: <Form /> },
   // { path: '/:pathMatch(.*)', element: <NoMatch /> },
