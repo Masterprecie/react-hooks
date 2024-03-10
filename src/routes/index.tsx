@@ -10,6 +10,7 @@ import { UseRef } from '../hooks/useRef';
 import FileUpload from '../components/fileUploads/FileUpload';
 import Form from '../components/fileUploads/Form';
 import UseReducer from '../hooks/useReducer';
+import UseImperative from '../hooks/useImperative';
 
 export const router = createBrowserRouter([
   { path: '/', element: <Home /> },
@@ -20,6 +21,7 @@ export const router = createBrowserRouter([
   { path: '/use-context', element: <Dashboard /> },
   { path: '/use-ref', element: <UseRef /> },
   { path: '/use-reducer', element: <UseReducer /> },
+  { path: '/use-imperative', element: <UseImperative /> },
   { path: '/file-upload', element: <FileUpload /> },
   { path: '/form', element: <Form /> },
   // { path: '/:pathMatch(.*)', element: <NoMatch /> },

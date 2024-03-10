@@ -29,6 +29,9 @@ export default function Home() {
           <Link to="/use-reducer"> UseReducer Hook</Link>
         </li>
         <li>
+          <Link to="/use-imperative"> UseImperative Hook</Link>
+        </li>
+        <li>
           <Link to="/file-upload"> File Upload Component</Link>
         </li>
         <li>
